@@ -5,7 +5,7 @@ The HexaCoreIO PCB is a robust, multifunctional controller designed specifically
 
 Microcontroller: STM32H730ZBT6
 Power Distribution: <b/>
-- Integrated 5V power lines supporting up to 5A per servo channel. <b/>
+- Integrated power lines of maximum 15V supporting up to 5A per servo channel. <b/>
 - Safe input voltage range: 15V (safe max), 20V (absolute max). <b/>
 
 <a/> Servo Control: <b/>
