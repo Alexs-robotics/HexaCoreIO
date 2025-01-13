@@ -4,27 +4,33 @@ The HexaCoreIO PCB is a robust, multifunctional controller designed specifically
 # Specifications
 
 Microcontroller: STM32H730ZBT6
-Power Distribution:
+Power Distribution: <b/>
+- Integrated 5V power lines supporting up to 5A per servo channel. <b/>
+- Safe input voltage range: 15V (safe max), 20V (absolute max). <b/>
 
-    Integrated 5V power lines supporting up to 5A per servo channel.
-    Safe input voltage range: 15V (safe max), 20V (absolute max).
-Servo Control:
-    21 PWM channels for servos, Powered by dual PCA9685 ICs.
-Sensors:
-    21 x ACS712 current sensors for servo power monitoring (5A max per sensor).
-Storage:
-    MicroSD card slot supporting SDMMC1 interface.
-Communication Interfaces:
-    I2C, SPI, UART, CAN, and Ethernet.
-    I2S for audio or data streaming.
-Peripheral Support:
-    Integrated NRF24L01+ module for wireless communication.
-    Quad-SPI for external flash and RAM (up to 125 MB).
-Debugging and Programming:
-    SWD (Serial Wire Debug) interface.
-Other Features:
-    Onboard LEDs for status indication.
-    Analog multiplexer for additional signal routing.
+<a/> Servo Control: <b/>
+- 21 PWM channels for servos, Powered by dual PCA9685 ICs. <b/>
+
+<a/> Sensors: <b/>
+- 21 x ACS712 current sensors for servo power monitoring (5A max per sensor). <b/>
+
+<a/> Storage: <b/>
+- MicroSD card slot supporting SDMMC1 interface. <b/>
+
+<a/> Communication Interfaces: <b/>
+- I2C, SPI, UART, CAN, and Ethernet. <b/>
+- I2S for audio or data streaming. <b/>
+
+<a/> Peripheral Support: <b/>
+- Integrated NRF24L01+ module for wireless communication. <b/>
+- Quad-SPI for external flash and RAM (up to 125 MB). <b/>
+
+<a/> Debugging and Programming: <b/>
+- SWD (Serial Wire Debug) interface. <b/>
+
+<a/> Other Features: <b/>
+- Onboard LEDs for status indication. <b/>
+- Analog multiplexer for additional signal routing. <b/>
 
 # Description
 The HexaCoreIO is a high-performance main controller board tailored for complex robotics applications like hexapods. The board includes the STM32H730 microcontroller, offering powerful computational capabilities while maintaining energy efficiency. The integrated power lines, rated at 5A per channel, ensure reliable and consistent power delivery to up to 21 servos simultaneously.
