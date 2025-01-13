@@ -53,3 +53,8 @@ Expand Functionality: Connect sensors, wireless modules, or additional periphera
 
 # License
 This design is open-source under the Apache Version 2.0 License. Contributions and modifications are encouraged!
+
+# TO-DO
+
+- Drivers
+- Testing code
