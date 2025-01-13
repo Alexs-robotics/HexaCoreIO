@@ -1,2 +1,48 @@
-# HexaCoreIO
-The first (as far as i know) pcb made specifically to control and manage Hexapod robots
+# HexaCoreI/O
+The HexaCoreIO PCB is a robust, multifunctional controller designed specifically for hexapod robots. It integrates essential functionalities such as servo control, power distribution, and communication interfaces into a single, efficient board. This board is ideal for robotics enthusiasts, researchers, and engineers who require high performance and scalability. It
+
+# Specifications
+
+Microcontroller: STM32H730ZBT6
+Power Distribution:
+    Integrated 5V power lines supporting up to 5A per servo channel.
+    Safe input voltage range: 15V (safe max), 20V (absolute max).
+Servo Control:
+    21 PWM channels for servos, Powered by dual PCA9685 ICs.
+Sensors:
+    21 x ACS712 current sensors for servo power monitoring (5A max per sensor).
+Storage:
+    MicroSD card slot supporting SDMMC1 interface.
+Communication Interfaces:
+    I2C, SPI, UART, CAN, and Ethernet.
+    I2S for audio or data streaming.
+Peripheral Support:
+    Integrated NRF24L01+ module for wireless communication.
+    Quad-SPI for external flash and RAM (up to 125 MB).
+Debugging and Programming:
+    SWD (Serial Wire Debug) interface.
+Other Features:
+    Onboard LEDs for status indication.
+    Analog multiplexer for additional signal routing.
+
+# Description
+The HexaCoreIO is a high-performance main controller board tailored for complex robotics applications like hexapods. The board includes the STM32H730 microcontroller, offering powerful computational capabilities while maintaining energy efficiency. The integrated power lines, rated at 5A per channel, ensure reliable and consistent power delivery to up to 21 servos simultaneously.
+Each servo channel includes a dedicated ACS712 current sensor, enabling real-time current monitoring for advanced diagnostics and feedback control. The board's robust storage capabilities include both MicroSD and Quad-SPI flash support for large datasets, making it suitable for AI-driven robotics.
+
+For communication, HexaCoreIO supports multiple protocols, including I2C, SPI, UART, and Ethernet, ensuring seamless integration into diverse robotic systems. The NRF24L01+ module further enhances the system's capabilities by offering reliable wireless communication.
+
+With integrated debugging interfaces and onboard LEDs, HexaCoreIO is also designed to simplify development and troubleshooting. Its modular and expandable architecture makes it a future-proof choice for robotics projects.
+
+Applications
+Hexapod and multi-legged robotic systems.
+Advanced robotic arms requiring precise servo control.
+Research projects involving real-time data monitoring and feedback.
+AI-enabled robotic platforms.
+Getting Started
+Power Supply: Connect a regulated 5V power source to the input pins. Ensure the current capacity matches your servo requirements.
+Servo Connection: Plug in your servos to the PWM pins. Each channel supports up to 5A.
+Microcontroller Programming: Use the SWD interface for programming and debugging with STM32CubeIDE or similar tools.
+Expand Functionality: Connect sensors, wireless modules, or additional peripherals using I2C, SPI, UART, or Ethernet.
+
+# License
+This design is open-source under the Apache Version 2.0 License. Contributions and modifications are encouraged!
