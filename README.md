@@ -1,5 +1,5 @@
 # HexaCoreI/O
-The HexaCoreIO PCB is a robust, multifunctional controller designed specifically for hexapod robots. It integrates essential functionalities such as servo control, power distribution, and communication interfaces into a single, efficient board. This board is ideal for robotics enthusiasts, researchers, and engineers who require high performance and scalability. It
+The HexaCoreIO PCB is a robust, multifunctional controller designed specifically for hexapod robots. It integrates essential functionalities such as servo control, power distribution, and communication interfaces into a single, efficient board. This board is ideal for robotics enthusiasts, researchers, and engineers who require high performance and scalability.
 
 # Specifications
 
