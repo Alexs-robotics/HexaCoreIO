@@ -40,13 +40,13 @@ For communication, HexaCoreIO supports multiple protocols, including I2C, SPI, U
 
 With integrated debugging interfaces and onboard LEDs, HexaCoreIO is also designed to simplify development and troubleshooting. Its modular and expandable architecture makes it a future-proof choice for robotics projects.
 
-Applications
-Hexapod and multi-legged robotic systems.
+- Applications  <b/>  
+<a/> Hexapod and multi-legged robotic systems.
 Advanced robotic arms requiring precise servo control.
 Research projects involving real-time data monitoring and feedback.
 AI-enabled robotic platforms.
-Getting Started
-Power Supply: Connect a regulated 5V power source to the input pins. Ensure the current capacity matches your servo requirements.
+- Getting Started  <b/>  
+<a/> Power Supply: Connect a regulated 5V power source to the input pins. Ensure the current capacity matches your servo requirements.
 Servo Connection: Plug in your servos to the PWM pins. Each channel supports up to 5A.
 Microcontroller Programming: Use the SWD interface for programming and debugging with STM32CubeIDE or similar tools.
 Expand Functionality: Connect sensors, wireless modules, or additional peripherals using I2C, SPI, UART, or Ethernet.
@@ -54,7 +54,7 @@ Expand Functionality: Connect sensors, wireless modules, or additional periphera
 # Updates
 - 1/19/2025 <b/>  
 <a/> Support for SDMMC2 is discontinued <b/>
-Replaced 2 Power pins for a barrel connector (Inside rod vcc, outside gnd) <b/>
+and eplaced 2 Power pins (5vcc and gnd) for a barrel connector <b/>
 
 
 # License
