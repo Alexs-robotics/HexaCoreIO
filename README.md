@@ -54,7 +54,7 @@ Expand Functionality: Connect sensors, wireless modules, or additional periphera
 # Updates
 - 1/19/2025 <b/>  
 <a/> Support for SDMMC2 is discontinued <b/>
-Replaced 2 Power pins for a barrel connector (Inside rod vcc, outside gnd)
+Replaced 2 Power pins for a barrel connector (Inside rod vcc, outside gnd) <b/>
 
 
 # License
