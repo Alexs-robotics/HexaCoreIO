@@ -51,6 +51,12 @@ Servo Connection: Plug in your servos to the PWM pins. Each channel supports up 
 Microcontroller Programming: Use the SWD interface for programming and debugging with STM32CubeIDE or similar tools.
 Expand Functionality: Connect sensors, wireless modules, or additional peripherals using I2C, SPI, UART, or Ethernet.
 
+# Updates
+- 1/19/2025 <b/>  
+<a/> Support for SDMMC2 is discontinued <b/>
+Replaced 2 Power pins for a barrel connector (Inside rod vcc, outside gnd)
+
+
 # License
 This design is open-source under the Apache Version 2.0 License. Contributions and modifications are encouraged!
 
