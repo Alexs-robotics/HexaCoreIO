@@ -53,9 +53,13 @@ Expand Functionality: Connect sensors, wireless modules, or additional periphera
 
 # Updates
 - 1/19/2025 <b/>  
-<a/> Support for SDMMC2 is discontinued <b/>
-and eplaced 2 Power pins (5vcc and gnd) for a barrel connector <b/>
+<a/> Support for SDMMC2 is discontinued. <b/>
+Rplaced 2 Power pins (5vcc and gnd) for a barrel connector <b/>
+- 2/28/2025 <b/>
+Added support for 8-bit Data bus Camera Refer to schematic for pinout
 
+#PCBWay
+Thank you PCBWay for sponsoring this project, your help has been very helpful and I'm glad we can work together!
 
 # License
 This design is open-source under the Apache Version 2.0 License. Contributions and modifications are encouraged!
