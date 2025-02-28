@@ -59,7 +59,7 @@ Rplaced 2 Power pins (5vcc and gnd) for a barrel connector <b/>
 Added support for 8-bit Data bus Camera Refer to schematic for pinout
 
 # PCBWay
-Thank you PCBWay for sponsoring this project, your help has been very helpful and I'm glad we can work together!
+Thank you PCBWay for sponsoring this project, your help is appreciated and I'm glad we can work together!
 
 # License
 This design is open-source under the Apache Version 2.0 License. Contributions and modifications are encouraged!
