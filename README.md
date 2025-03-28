@@ -1,3 +1,6 @@
+# PCBWay
+Shoutout to PCBWay for their outstanding service! The PCB was manufactured with precision, high-quality materials and delivered on time. Their attention to detail and reliable production process made the experience seamless. Highly recommended for anyone needing professional PCB fabrication.
+
 # HexaCoreI/O
 The HexaCoreIO PCB is a robust, multifunctional controller designed specifically for hexapod robots. It integrates essential functionalities such as servo control, power distribution, and communication interfaces into a single, efficient board. This board is ideal for robotics enthusiasts, researchers, and engineers who require high performance and scalability. DMA is supported.
 # Specifications
@@ -57,9 +60,6 @@ Expand Functionality: Connect sensors, wireless modules, or additional periphera
 Rplaced 2 Power pins (5vcc and gnd) for a barrel connector <b/>
 - 2/28/2025 <b/>
 Added support for 8-bit Data bus Camera Refer to schematic for pinout
-
-# PCBWay
-Thank you PCBWay for sponsoring this project, your help is appreciated and I'm glad we can work together!
 
 # License
 This design is open-source under the Apache Version 2.0 License. Contributions and modifications are encouraged!
