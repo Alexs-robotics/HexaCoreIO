@@ -1,5 +1,7 @@
 # PCBWay
 Shoutout to PCBWay for their outstanding service! The PCB was manufactured with precision, high-quality materials and delivered on time. Their attention to detail and reliable production process made the experience seamless. Highly recommended for anyone needing professional PCB fabrication.
+![alt text](https://github.com/Alexs-robotics/HexaCoreIO/blob/main/HexaCoreIO1.jpg)
+![alt text](https://github.com/Alexs-robotics/HexaCoreIO/blob/main/HexaCoreIO2.jpg)
 
 # HexaCoreI/O
 The HexaCoreIO PCB is a robust, multifunctional controller designed specifically for hexapod robots. It integrates essential functionalities such as servo control, power distribution, and communication interfaces into a single, efficient board. This board is ideal for robotics enthusiasts, researchers, and engineers who require high performance and scalability. DMA is supported.
